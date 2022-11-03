@@ -5,3 +5,5 @@ The role of node is to communicate responses to request from frontend applicatio
 The Global object in node is similar to the the window object inside a browser, it basically host a ton of methods and functions.
 
 the http module in node is what is responsible to creating a server as well as starting the server.
+
+the 301 status code speaks to a move in resource, i.e a change in the path url of a web page etc.
