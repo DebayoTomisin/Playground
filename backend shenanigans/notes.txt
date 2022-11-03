@@ -7,3 +7,5 @@ The Global object in node is similar to the the window object inside a browser, 
 the http module in node is what is responsible to creating a server as well as starting the server.
 
 the 301 status code speaks to a move in resource, i.e a change in the path url of a web page etc.
+
+nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
