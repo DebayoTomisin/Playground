@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "getStreamChat",
+    "slug": "getStreamChat",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
