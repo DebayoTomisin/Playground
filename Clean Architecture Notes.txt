@@ -52,3 +52,24 @@ Driven adapters interact with the infrastructure.
 In the frontend, most of the infrastructure is the backend server, 
 but sometimes we may interact with some other services directly, 
 such as a search engine.
+
+
+Dependency Rule:
+Only the outer layers can depend on the inner layers. this means that
+1. The domain is independent.
+2. the app layer can only depend on the domain.
+3. the adapter can depend on anything.
+
+
+It is important to strike a balance especially in frontend apps where code
+is usually bundled and more code means more wait time and that doesn't do
+us any favours. You can reduce the amount of time and code by cutting corners 
+and sacrificing the “cleanliness” of the architecture. 
+if it's more pragmatic (e.g. benefits will be higher than potential costs) 
+to break a rule, then break it. But two things are important to note.
+
+1. Extract Domain: The extracted domain helps to understand what we 
+are designing in general and how it should work.
+2. Obey Depedency rule: The idea here is to mind the direction of the
+dependency. external services should be moulded to fit our product 
+requirements,not the other way around.
