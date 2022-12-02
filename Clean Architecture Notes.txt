@@ -1,0 +1,54 @@
+The clean architecture is a way of separating responsibilities and parts of
+functionality according to their proximity to the application domain.
+
+The Clean Architecture is often referred to as a three-layer architecture, 
+because the functionality in it is divided into layers.
+
+Domain Layer: it is the entities and data that describe the subject area of the
+application as well as code to transform that data. the domain is the core 
+that differentiates one application from another.
+The data structure of domain entities and the essence of their 
+transformations are independent from the outer world. 
+External events trigger domain transformations, 
+but do not determine how they will occur.
+
+
+Application Layer:
+Around the domain is the application layer. 
+This layer describes use cases, i.e. user scenarios. 
+They are responsible for what happens after some event occurs.
+
+For example, the “Add to cart” scenario is a use case. 
+It describes the actions that are should be taken after the button is clicked.
+It's the kind of “orchestrator” that says:
+
+go to the server, send a request;
+now perform this a domain transformation;
+now redraw the UI using the response data.
+
+Also, in the application layer there are ports—the specifications of how 
+our application wants the outside world to communicate with it. 
+Usually a port is an interface, a behavior contract.
+
+
+Adapters Layer
+The outermost layer contains the adapters to external services. 
+Adapters are needed to turn incompatible APIs of external services 
+into those compatible with our application's wishes.
+Adapters are a great way to lower the coupling between our code and the 
+code of third-party services. 
+Low coupling reduces needs to change one module when others are changed.
+
+Adapters are often divided into:
+driving—which send signals to our application;
+driven—which receive the signals from our application.
+The user interacts most often with driving adapters. 
+For example, the UI framework's handling of a button click is the work of a 
+driving adapter. 
+It works with the browser API (basically a third-party service) and 
+converts the event into a signal that our application can understand.
+
+Driven adapters interact with the infrastructure. 
+In the frontend, most of the infrastructure is the backend server, 
+but sometimes we may interact with some other services directly, 
+such as a search engine.
