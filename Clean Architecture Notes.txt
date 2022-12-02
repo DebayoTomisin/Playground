@@ -73,3 +73,28 @@ are designing in general and how it should work.
 2. Obey Depedency rule: The idea here is to mind the direction of the
 dependency. external services should be moulded to fit our product 
 requirements,not the other way around.
+
+
+
+Designing Domain:
+It is where the main entities of the application and their data transformations
+are.The transformation functions in the domain should depend only on the 
+rules of the domain and nothing else.
+
+Designing Application Layer: The application layer contains the use cases. 
+A use case always has an actor, an action, and a result.
+Use cases are usually described in the terms of the subject area. 
+e.g writing a blog has several steps
+also in the application layer, there are ports, interfaces for commnicating
+with the outside world.
+
+
+Designing Adapters: In frontend,this is usually  ui framework and api server 
+request module.
+The UI is also an adapter since it depends on the application and data layer 
+to render info to the users
+
+The MVC analogy is a good way to know where some data belongs to.
+1. Models are usually domain entities
+2. Controllers are domain transformations and app layer.
+3. View is driving adapters 
