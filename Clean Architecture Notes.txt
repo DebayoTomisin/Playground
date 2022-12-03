@@ -98,3 +98,16 @@ The MVC analogy is a good way to know where some data belongs to.
 1. Models are usually domain entities
 2. Controllers are domain transformations and app layer.
 3. View is driving adapters 
+
+
+Desigining use cases.
+Functions that handle use cases should not take in the data as parameters,but 
+rather a function should be the one responsible for fetching the data, but this is a
+tradeoff that can be made when we donot want bloated codebases with a ton of code.
+
+Desinging Application layer ports.
+When designing app ports,it is important to to switch them by features so third party 
+applications do not get mixed up. Also first define the interfaces first, which is
+basically describing the behaviour,this allows us to postpone the decision for which
+external service to use to the very last minute.The interface is usually stored in
+application layer but their implementations is stored as adapters.
