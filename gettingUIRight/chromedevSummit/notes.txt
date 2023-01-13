@@ -1,0 +1,5 @@
+intrisic sizing bascially describes the sizing generated that has not been explicitly defined.
+
+auto-fill in grid will allow for the child element to take up the avaliable space left in the container
+
+minmax works such that the object won't be less than the minimum specified value and won't be larger than the maximum specified value.
