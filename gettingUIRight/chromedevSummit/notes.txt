@@ -24,3 +24,12 @@ whitespace: no wrap allows for text to maintain its width and not wrap inside of
 When handling alignment with flex box, you are aligning to the main axis, whether row or column specified in the direction of the flex and then you are moving the items as a group of items rather than individual items.
 
 auto margins are a good way to handle the individual items in a flex box.
+
+the flex property is shorthand for three flex properties:flex-grow, flex-shrink, flex-basis 
+by default flex: 0 1 auto;
+
+flex grow is zero cos the items don't grow,they only take the maximum width from their content.
+
+flex shrink is 1 meaning when the viewport is reduced the elements shrink to their minimum size.
+
+flex basis is basicallly managing the container sizing such that the flex elements can either fill up the width of the container or take up their content sizing, changing the basis from auto to zero means the items have equal sizes

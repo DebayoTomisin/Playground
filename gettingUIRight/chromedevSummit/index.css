@@ -86,3 +86,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.container6 {
+  margin: 30px 0;
+  border: 5px solid grey;
+  display: flex;
+}
+
+.container6 .item {
+  flex: 1 1 0;
+}
