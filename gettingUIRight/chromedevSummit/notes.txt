@@ -15,3 +15,7 @@ justify is used when we want to align items left to right basicaly.
 items: justifying or aligning refers to the actual items in the block.
 content: this refers to the entirety of the content rather than individual like in items.
 self: this refers to styling one's self. e.g the style will only work on the item it is specified on rather than all the items
+
+flex box was designed to be one dimensional, so depending on the flex direction, it is either facing the row or facing the column.
+
+whitespace: no wrap allows for text to maintain its width and not wrap inside of the container say when the viewport becomes smaller, this feels prety useful for things like text inside of a button and from the looks of it, it doesn't seem to create an overflow of the view port
