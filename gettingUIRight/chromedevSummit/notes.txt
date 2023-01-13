@@ -11,3 +11,7 @@ The key scope is to use one of auto-placement or line based  positioning, using 
 align is used when we want to align items on the block axis, from top to bottom.
 
 justify is used when we want to align items left to right basicaly.
+
+items: justifying or aligning refers to the actual items in the block.
+content: this refers to the entirety of the content rather than individual like in items.
+self: this refers to styling one's self. e.g the style will only work on the item it is specified on rather than all the items
