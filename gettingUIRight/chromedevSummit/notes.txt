@@ -1,0 +1,35 @@
+intrisic sizing bascially describes the sizing generated that has not been explicitly defined.
+
+auto-fill in grid will allow for the child element to take up the avaliable space left in the container
+
+minmax works such that the object won't be less than the minimum specified value and won't be larger than the maximum specified value.
+
+We can use grid-column and grid-row to place items on the grid lines and it only works for explictly defined grid columns and grid rows.
+
+The key scope is to use one of auto-placement or line based  positioning, using both together on a grid can cause issues with accessibility and introducing another element means that element is placed in the first available space on the container which can be very confusing at times.
+
+align is used when we want to align items on the block axis, from top to bottom.
+
+justify is used when we want to align items left to right basicaly.
+
+items: justifying or aligning refers to the actual items in the block.
+content: this refers to the entirety of the content rather than individual like in items.
+self: this refers to styling one's self. e.g the style will only work on the item it is specified on rather than all the items
+
+flex box was designed to be one dimensional, so depending on the flex direction, it is either facing the row or facing the column.
+
+whitespace: no wrap allows for text to maintain its width and not wrap inside of the container say when the viewport becomes smaller, this feels prety useful for things like text inside of a button and from the looks of it, it doesn't seem to create an overflow of the view port.
+
+
+When handling alignment with flex box, you are aligning to the main axis, whether row or column specified in the direction of the flex and then you are moving the items as a group of items rather than individual items.
+
+auto margins are a good way to handle the individual items in a flex box.
+
+the flex property is shorthand for three flex properties:flex-grow, flex-shrink, flex-basis 
+by default flex: 0 1 auto;
+
+flex grow is zero cos the items don't grow,they only take the maximum width from their content.
+
+flex shrink is 1 meaning when the viewport is reduced the elements shrink to their minimum size.
+
+flex basis is basicallly managing the container sizing such that the flex elements can either fill up the width of the container or take up their content sizing, changing the basis from auto to zero means the items have equal sizes
