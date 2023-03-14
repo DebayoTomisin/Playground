@@ -1,0 +1,22 @@
+Chapter 1: Pleasing your customer.
+
+The two major concerns of customers are, how much it costs to build and how long it'll take to build.
+there is an illustration of how how devs crank out code and not get any feedback from the customer until it is almost deadline and the customer,
+more often than not, the customer isn't thrilled with the work done, sometimes called big bang devlopment. How do you  know what the customer wants?
+
+Software development is not guess work, it is important to keep customers in the loop of what you are building.
+When in doubt, ask questions! even when you're sure, ask questions. its difficult for customers to know what they want in the beginning of the project, your questions are what inadvertedly guides their decision making on the routes the project takes. 
+
+Great software development delivers, what is needed, on time and on budget.
+
+The secret is iteration. with iteration, each time significant progress is made, you check back with the customer and refine what you are doing to align with their vison, You also do not make any major decisions without the input of the customer.Iteration is like a frequent checkup for your software, You'll always know how you're doing.
+
+NOTE QUESTION 3 ON PAGE 48, VERY IMPORTANT!!!!
+
+With the big bang approach, working software is not actualized until when the project is completed which is a really really bad time to find out you've gone wrong. Iteration produces working software, working software can mean several things, from a functional button to a full web page, all depends on the conversations had between you and your customer.
+
+Each iteration is a mini project. You take the steps you'd follow to build the entire project and put those into each iteration, each iteration has its own requirements, design, code, tests etc, so we are not showing the user junk but pieces of the final software.
+
+Each iteration is quality software. they are little cycles that encompass, requirement gathering, design, code and testing.
+
+It is important that your iteration length should be the right tempo for your project. the key here is to iterate enough to catch yourself deviating from the requirements but not so often that takes all your attention because in the end, iteration is a tool to help you, it is not the  goal or the software you are building.
