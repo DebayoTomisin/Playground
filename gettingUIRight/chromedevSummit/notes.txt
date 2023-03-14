@@ -33,3 +33,9 @@ flex grow is zero cos the items don't grow,they only take the maximum width from
 flex shrink is 1 meaning when the viewport is reduced the elements shrink to their minimum size.
 
 flex basis is basicallly managing the container sizing such that the flex elements can either fill up the width of the container or take up their content sizing, changing the basis from auto to zero means the items have equal sizes
+
+
+
+
+
+
