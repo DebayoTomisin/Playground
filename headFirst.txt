@@ -20,3 +20,9 @@ Each iteration is a mini project. You take the steps you'd follow to build the e
 Each iteration is quality software. they are little cycles that encompass, requirement gathering, design, code and testing.
 
 It is important that your iteration length should be the right tempo for your project. the key here is to iterate enough to catch yourself deviating from the requirements but not so often that takes all your attention because in the end, iteration is a tool to help you, it is not the  goal or the software you are building.
+
+How do you handle when the customer changes things, say maybe discovers a new set of priority features that should be added to the list of feature with priority as well? its up to us to make the necessary adjustment. Iteration handles chage automatically
+1. estimate new features, the time needed to build it.
+2. order of priority, which is important and which needs most attention
+3. rework the iteration plan, fix the most important features in the right places on your feature board
+4. check the project deadline 
