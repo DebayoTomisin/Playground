@@ -25,4 +25,36 @@ How do you handle when the customer changes things, say maybe discovers a new se
 1. estimate new features, the time needed to build it.
 2. order of priority, which is important and which needs most attention
 3. rework the iteration plan, fix the most important features in the right places on your feature board
-4. check the project deadline 
+4. check the project deadline.
+
+
+
+CHAPTER TWO: Gathering Requirements. Knowing what the customer wants.
+
+It is important to note that as developers we can't always get what we wan, but the customer should, 100%.
+The first step ensures that we are able to get the things that the user wants their service to provide, an example is this:
+"Build a web app that allows users manage their financies, by allowing them deposit money,  pay their electricity bills, data subscriptions, save and invest".
+from this we pick out the individual feature that the web app is expected to have, note at this stage, we are only gathering ideas.
+
+1. Allows users manage their finances, allowing for deposits.
+2. Allows users to pay their electricity bills.
+3. Allows users to pay for data subscriptions.
+4. Allows user the ability to save money
+5. Allows users to invest in different ventures.
+
+Remember these are not real requirements, just thoughts on what the software is expected to render as services to the users.
+
+TALK MORE WITH YOUR CUSTOMER TO GET MORE INFORMATION.
+Ask questions, in this case, what banking service will be used to recieve money? what electricity serivce companies do we intend to support? how much interest is the savings accumulating over how long? which investment platforms do we integrate?, how long does an investment last for? do we automate it or allow the users full autonomy on their investments?
+
+there are so many questions to be asked of the users about how they intend to perform these actions, and those questions generate more requirements. 
+iterate with the customer on requirements, brainstorm with as many people as possible, don't rule out any ideas in the beginning, capture everything.
+
+if brainstorming together is not working, then do it individually, put everyone's idea on a board and then do it together after.
+
+Some useful techniques in figuring out what the customer wants is ROLE PLAYING and OBSERVATION.
+
+Role Playing: the concept is to basically pretend like you are the software and vocally interact with the customer as regards what they need.
+the customer gets to instruct you on what they would like to do,and then you write it down as requirements.
+
+Observation: this involves understanding how people will work with the software by watching them and figuring out where your software solution fits in, observe the same informtion with multiple observers to have different perspective to figure out as many requirements as possible.
